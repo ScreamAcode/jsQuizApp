@@ -117,3 +117,12 @@ const questions = [
         ]
     }
 ]
+
+@media (max-width:400px){
+    .btnGrid{
+        display: grid;
+        grid-template-columns: repeat(1,auto);
+        gap: 10px;
+        margin: 20px 10px;
+    }
+}
